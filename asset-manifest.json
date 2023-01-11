@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/igroup-site/static/css/main.073c9b0a.css",
+    "main.js": "/igroup-site/static/js/main.9954f484.js",
+    "static/js/787.1f1cedf6.chunk.js": "/igroup-site/static/js/787.1f1cedf6.chunk.js",
+    "static/media/logo.svg": "/igroup-site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/igroup-site/index.html",
+    "main.073c9b0a.css.map": "/igroup-site/static/css/main.073c9b0a.css.map",
+    "main.9954f484.js.map": "/igroup-site/static/js/main.9954f484.js.map",
+    "787.1f1cedf6.chunk.js.map": "/igroup-site/static/js/787.1f1cedf6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9954f484.js"
+  ]
+}
