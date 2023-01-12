@@ -17,6 +17,7 @@ const Nav = () => {
             const direction = scrollY > lastScrollY ? true : false;
             if (direction !== hideNav) {
               setHideNav(direction);
+              setMenu(false)
             }
             lastScrollY = scrollY > 0 ? scrollY : 0;
         };
