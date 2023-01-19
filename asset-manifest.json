@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/igroup-site/static/css/main.69c5146f.css",
-    "main.js": "/igroup-site/static/js/main.4bbc41cf.js",
+    "main.js": "/igroup-site/static/js/main.49fc04ae.js",
     "static/js/787.1f1cedf6.chunk.js": "/igroup-site/static/js/787.1f1cedf6.chunk.js",
     "index.html": "/igroup-site/index.html",
     "main.69c5146f.css.map": "/igroup-site/static/css/main.69c5146f.css.map",
-    "main.4bbc41cf.js.map": "/igroup-site/static/js/main.4bbc41cf.js.map",
+    "main.49fc04ae.js.map": "/igroup-site/static/js/main.49fc04ae.js.map",
     "787.1f1cedf6.chunk.js.map": "/igroup-site/static/js/787.1f1cedf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69c5146f.css",
-    "static/js/main.4bbc41cf.js"
+    "static/js/main.49fc04ae.js"
   ]
 }
