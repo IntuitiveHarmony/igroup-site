@@ -35,7 +35,7 @@ const Nav = () => {
                 :
                 <>
                     <div className="navContainer" id="navContainer">
-                        <p><b>Denver MOM Hunters</b></p>
+                        <p><b>Men of Mission and Service</b></p>
                         <div className="iconContainer">
                         <i 
                             className={menu ? "fa-solid fa-x" : "fa-solid fa-bars"} 
@@ -48,14 +48,15 @@ const Nav = () => {
                             <>
                                 <div className="menuContainer">
                                     <ul className="menuList">
-                                        <li>Our Mission</li>
-                                        <li>Open Meetings</li>
-                                        <li>Commitments</li>
+                                        <li><a href="#mission">Our Mission</a></li>
+                                        <li><a href="#calendar">Open Meetings</a></li>
+                                        <li><a href="#commitments">Steps to Become a Member</a></li>
                                     </ul>
                                 </div>
                             </> 
                             : 
-                            <></> }   
+                            <></> 
+                        }   
                     </div>
                 </> 
             }
