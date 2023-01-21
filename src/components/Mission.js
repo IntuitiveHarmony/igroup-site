@@ -1,4 +1,4 @@
-import photo from "../images/groupPhoto.jpeg"
+import photo from "../images/groupPhotoClear.png"
 
 const Mission = () => {
    
@@ -7,9 +7,6 @@ const Mission = () => {
         <>
             <div className="missionContainer" id="mission">
                 <img id="groupPhoto" src={photo} />
-
-                {/* <h2>Our Mission:</h2>
-                <p className="content">We are thoughtful, caring men co-creating a safe container environment for personal growth as we deepen our connection to the mature masculine. We show up with authenticity, vulnerability, honesty, compassion and the courage to do our individual work. In addition, we're accountable by setting personal goals; initiating acts of service; offering support; and being present for the entire group.</p> */}
 
                 <h3>What We Do:</h3>
                 <p className="content">Men of Mission and Service (MMS) was formed in late 2022 as a circle dedicated to introducing basic concepts common to many mens' support groups, and to personal development in general.</p>
@@ -22,6 +19,9 @@ const Mission = () => {
                 <h3>What We Don't Do:</h3>
                 <p className="content">What We Don't Do: We are entirely self-guided, working independently without any professional oversight. Yet we do aim to bring some level of training and experience to our circles, such as that which can be gained by taking seminars, courses, and the like. It is critical to understand that we are not and do not claim to act as trained therapists, or as other relevant professionals. As such we are unable to support men with significant psychological disorders, or those with untreated or ongoing substance abuse issues.</p>
                 <p className="content">We don't offer advice or feedback, unless explicitly requested. This is a support environment, and not a talk group or a recovery group. In appropriate circumstances, typically with full disclosure and outside counsel, there may be some degree of overlap between such types of groups and this one.</p>
+
+                <h3>Our Mission:</h3>
+                <p className="content"><i>We are thoughtful, caring men co-creating a safe container environment for personal growth as we deepen our connection to the mature masculine. We show up with authenticity, vulnerability, honesty, compassion and the courage to do our individual work. In addition, we are accountable by setting personal goals; initiating acts of service; offering support; and being present for the entire group.</i></p>
             </div>
         </>
     )

@@ -8,31 +8,37 @@ body {
   cursor: pointer;
   color: gold;
  }
+ h3 {
+  margin-top: 2em;
+  margin-bottom: .1em;
+ }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  .navContainer {
   z-index: 1;
-  display: flex;
-  justify-content:space-between;
-  /* grid-template-columns: 75% 25%;
-  grid-template-rows: auto; */
+  display: grid;
+  grid-template-columns: 85% auto;
+  grid-template-rows: auto;
   position: fixed;
   width: 100%;
-  padding-left: .7em;
+  padding: .5em;
   background: rgb(0, 0, 187);
   color: gold;
-  font-size: 1.2em;
+  font-size: 1.5em;
  }
- .navContainer > p {
+ .header {
   grid-column: 1;
  }
  .iconContainer {
-  /* grid-column: 2;
-  position: relative; */
+  max-width: 100%;
+  grid-column: 2;
+  display: flex;
+  justify-content: right;
  }
  #menuIcon {
-  /* position: absolute; */
-  top: 3em;
-  left: -2em;
+  position: relative;
+  grid-column: 2;
+  top: .1em;
+  right: 1.2em;
  }
  .menuContainer {
   grid-column: 1 / span 2;
@@ -57,10 +63,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 3.7em;
+  top: 2em;
  }
  #groupPhoto {
-  max-width: 90%;
+  max-width: 100%;
+  margin-bottom: -1em;
+  left: -1em;
  }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {

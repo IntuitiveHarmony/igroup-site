@@ -36,30 +36,28 @@ const Nav = () => {
             {hideNav ?  
                 <></> 
                 :
-                <>
-                    <div className="navContainer" id="navContainer">
-                        <p><b>Men of Mission and Service</b></p>
-                        <p><i 
-                            className={menu ? "fa-solid fa-x" : "fa-solid fa-bars"} 
-                            id="menuIcon" 
-                            onClick={() => handleMenu()}>
-                        </i></p>
-                        
-                        {menu ? 
-                            <>
-                                <div className="menuContainer">
-                                    <ul className="menuList">
-                                        <li><a href="#mission" onClick={() => handleHideNav()}>Our Mission</a></li>
-                                        <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
-                                        <li><a href="#commitments" onClick={() => handleHideNav()}>Steps to Become a Member</a></li>
-                                    </ul>
-                                </div>
-                            </> 
-                            : 
-                            <></> 
-                        }   
+                <nav className="navContainer">
+                    <header className='header'><b>Men of Mission and Service</b></header>
+                    <div className='iconContainer'>
+                    <i 
+                        className={menu ? "fa-solid fa-x" : "fa-solid fa-bars"} 
+                        id="menuIcon" 
+                        onClick={() => handleMenu()}>
+                    </i>
                     </div>
-                </> 
+                    
+                    {menu ? 
+                        <div className="menuContainer">
+                            <ul className="menuList">
+                                <li><a href="#mission" onClick={() => handleHideNav()}>Our Mission</a></li>
+                                <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
+                                <li><a href="#commitments" onClick={() => handleHideNav()}>Steps to Become a Member</a></li>
+                            </ul>
+                        </div>
+                        : 
+                        <></> 
+                    }   
+                </nav>  
             }
         </>
     )
