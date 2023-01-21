@@ -1,36 +1,38 @@
 /* style for mobile */
 body {
   background: rgb(120, 80, 120);
-  color: magenta;
+  /* color: magenta; */
  }
  a {
   text-decoration: none;
   cursor: pointer;
-  color: magenta;
+  color: gold;
  }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  .navContainer {
   z-index: 1;
-  display: grid;
-  grid-template-columns: 75% 25%;
-  grid-template-rows: auto;
+  display: flex;
+  justify-content:space-between;
+  /* grid-template-columns: 75% 25%;
+  grid-template-rows: auto; */
   position: fixed;
   width: 100%;
   padding-left: .7em;
   background: rgb(0, 0, 187);
-  font-size: 1.5em;
+  color: gold;
+  font-size: 1.2em;
  }
  .navContainer > p {
   grid-column: 1;
  }
  .iconContainer {
-  grid-column: 2;
-  position: relative;
+  /* grid-column: 2;
+  position: relative; */
  }
  #menuIcon {
-  position: absolute;
-  top: 35%;
-  left: 45%;
+  /* position: absolute; */
+  top: 3em;
+  left: -2em;
  }
  .menuContainer {
   grid-column: 1 / span 2;
@@ -44,8 +46,10 @@ body {
  }
   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .content {
-  padding-left: 1.5em;
   padding-right: 1.5em;
+  padding-left: 1.5em;
+  margin-bottom: 0em;
+  
 }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  .missionContainer {

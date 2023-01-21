@@ -7,6 +7,9 @@ const Nav = () => {
     const handleMenu = () => {
         setMenu(!menu)
     }
+    const handleHideNav = () => {
+        setHideNav(true)
+    }
     // ~~~~~~~~~~~~~~~~~~~~~
     // Props to: https://www.codemzy.com/blog/react-hook-scroll-direction-event-listener
     useEffect(() => {
@@ -36,21 +39,19 @@ const Nav = () => {
                 <>
                     <div className="navContainer" id="navContainer">
                         <p><b>Men of Mission and Service</b></p>
-                        <div className="iconContainer">
-                        <i 
+                        <p><i 
                             className={menu ? "fa-solid fa-x" : "fa-solid fa-bars"} 
                             id="menuIcon" 
                             onClick={() => handleMenu()}>
-                        </i>
-                        </div>
+                        </i></p>
                         
                         {menu ? 
                             <>
                                 <div className="menuContainer">
                                     <ul className="menuList">
-                                        <li><a href="#mission">Our Mission</a></li>
-                                        <li><a href="#calendar">Open Meetings</a></li>
-                                        <li><a href="#commitments">Steps to Become a Member</a></li>
+                                        <li><a href="#mission" onClick={() => handleHideNav()}>Our Mission</a></li>
+                                        <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
+                                        <li><a href="#commitments" onClick={() => handleHideNav()}>Steps to Become a Member</a></li>
                                     </ul>
                                 </div>
                             </> 

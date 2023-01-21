@@ -1,3 +1,4 @@
+import photo from "../images/groupPhoto.jpeg"
 
 const Mission = () => {
    
@@ -5,16 +6,22 @@ const Mission = () => {
     return (
         <>
             <div className="missionContainer" id="mission">
-                <img id="groupPhoto" src={process.env.PUBLIC_URL + "/groupPhoto.jpeg"} />
+                <img id="groupPhoto" src={photo} />
 
-                <h2>Our Mission:</h2>
-                <p className="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam pellentesque nec nam aliquam sem et. Dis parturient montes nascetur ridiculus mus mauris. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Porttitor eget dolor morbi non arcu risus. Blandit libero volutpat sed cras ornare. Erat imperdiet sed euismod nisi porta. At consectetur lorem donec massa sapien. Odio morbi quis commodo odio aenean sed. Ultrices vitae auctor eu augue ut. Convallis aenean et tortor at risus. Sit amet justo donec enim diam vulputate ut. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. </p>
+                {/* <h2>Our Mission:</h2>
+                <p className="content">We are thoughtful, caring men co-creating a safe container environment for personal growth as we deepen our connection to the mature masculine. We show up with authenticity, vulnerability, honesty, compassion and the courage to do our individual work. In addition, we're accountable by setting personal goals; initiating acts of service; offering support; and being present for the entire group.</p> */}
 
                 <h3>What We Do:</h3>
-                <p className="content">Tincidunt augue interdum velit euismod. Dui faucibus in ornare quam viverra. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sit amet nisl suscipit adipiscing bibendum est ultricies integer quis. </p>
+                <p className="content">Men of Mission and Service (MMS) was formed in late 2022 as a circle dedicated to introducing basic concepts common to many mens' support groups, and to personal development in general.</p>
+                <p className="content">Driven by cornerstone teachings and concepts in psychology, especially around the work upon "shadow" as described by Carl Jung, Robert Bly, and others, in MMS' Open Men's Circle  meetings, organizers and attendees reference and work from four primary archetypes as a template for reflection and growth: Lover, Warrior, Magician, and King.</p>
+                <p className="content">MMS supports men to consciously work with their shadows and develop their gold; in other words, by working with the disowned or denied parts of ourselves we can discover and develop powerful underlying positive attributes. This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</p>
+                <p className="content">The Men of Mission and Service endeavors to hold a Open Men's Circle once a month, where it welcomes pre-registered non-members*. Core members of MMS meet privately among themselves, in different smaller groups, at various intervals.</p>
+                <p className="content">The Men of Mission and Service's Open Men's Circles are currently primarily led by a group of men associated with a particular private men's group, Denver Hunting Party, which was formed in 2013 and remains in operation. Open Men's Circles are intended to share tools used by tens of thousands of individuals belonging to men's groups, worldwide.</p>
+                <p className="content">*To visit an Open Men's Circle, first review our “Circles” tab above then complete and submit our Rules and Guidelines form. Next, send us a notice of your intended date(s) of attendance. When these steps are complete, you will receive further communication regarding the location of the next meeting.</p>
 
                 <h3>What We Don't Do:</h3>
-                <p className="content">Nunc eget lorem dolor sed viverra. Eu sem integer vitae justo eget magna fermentum iaculis. Elit eget gravida cum sociis natoque penatibus et magnis. Quam nulla porttitor massa id. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Scelerisque mauris pellentesque pulvinar pellentesque habitant mo</p>
+                <p className="content">What We Don't Do: We are entirely self-guided, working independently without any professional oversight. Yet we do aim to bring some level of training and experience to our circles, such as that which can be gained by taking seminars, courses, and the like. It is critical to understand that we are not and do not claim to act as trained therapists, or as other relevant professionals. As such we are unable to support men with significant psychological disorders, or those with untreated or ongoing substance abuse issues.</p>
+                <p className="content">We don't offer advice or feedback, unless explicitly requested. This is a support environment, and not a talk group or a recovery group. In appropriate circumstances, typically with full disclosure and outside counsel, there may be some degree of overlap between such types of groups and this one.</p>
             </div>
         </>
     )
