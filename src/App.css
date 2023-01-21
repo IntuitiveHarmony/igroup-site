@@ -66,9 +66,8 @@ body {
   top: 2em;
  }
  #groupPhoto {
-  max-width: 100%;
+  max-width: 90%;
   margin-bottom: -1em;
-  left: -1em;
  }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
