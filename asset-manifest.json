@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/igroup-site/static/css/main.d103f226.css",
-    "main.js": "/igroup-site/static/js/main.22121eb3.js",
+    "main.css": "/igroup-site/static/css/main.b2f57e08.css",
+    "main.js": "/igroup-site/static/js/main.44c1c1ca.js",
     "static/js/787.1f1cedf6.chunk.js": "/igroup-site/static/js/787.1f1cedf6.chunk.js",
     "static/media/groupPhotoClear.png": "/igroup-site/static/media/groupPhotoClear.7daad4aa4eed33fc76eb.png",
     "index.html": "/igroup-site/index.html",
-    "main.d103f226.css.map": "/igroup-site/static/css/main.d103f226.css.map",
-    "main.22121eb3.js.map": "/igroup-site/static/js/main.22121eb3.js.map",
+    "main.b2f57e08.css.map": "/igroup-site/static/css/main.b2f57e08.css.map",
+    "main.44c1c1ca.js.map": "/igroup-site/static/js/main.44c1c1ca.js.map",
     "787.1f1cedf6.chunk.js.map": "/igroup-site/static/js/787.1f1cedf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d103f226.css",
-    "static/js/main.22121eb3.js"
+    "static/css/main.b2f57e08.css",
+    "static/js/main.44c1c1ca.js"
   ]
 }
