@@ -11,7 +11,10 @@ const OpenCalendar = () => {
           <p className="content">Download Discord for desktop or mobile: <a href="https://discord.com/download" target="_blank" rel="noopener noreferrer">https://discord.com/download</a></p>
           <p className="content">Join the Men of Mission and Service (MMS) Discord Server: <a href="https://discord.gg/9XbrvPdG">https://discord.gg/9XbrvPdG</a></p>
           <p className="content">Old school? Send us an email: <a href="menofmissionandservice@gmail.com">menofmissionandservice@gmail.com</a></p>
+          {/* MMS calendar */}
+          {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdk4GZwnjdKMNGkPwSaxRlfP94snrQR7TrMG5ssGQkC-s2lsQ/viewform?embedded=true" width="640" height="1879" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
 
+          {/* my calendar */}
           <iframe className="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&showPrint=0&showCalendars=0&showTabs=0&showNav=1&showTitle=1&src=YWQ3OGUyMzFhYzM2YTQ4NGRhODMyODFhZWIyMDdjZDM1YzkxMmE2NWYzZTIxNmVmY2ExNGUzZmJiODI3NjIwYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" width="800" height="600" frameBorder="0" scrolling="no"></iframe>
         </div>
     );
