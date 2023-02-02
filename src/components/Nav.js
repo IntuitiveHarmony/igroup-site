@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react'
 
 const Nav = () => {
+    const minWidth = 900;
+
     const [menu, setMenu] = useState(false)
     const [hideNav, setHideNav] = useState(false)
-    const [windowSize, setWindowSize] = useState([
-        window.innerWidth,
-        window.innerHeight,
+    const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight,
       ]);
+    const [mobile, setMobile] = useState(window.innerWidth < minWidth)
+    const [desktop, setDesktop] = useState(window.innerWidth > minWidth)  
     
 
     const handleMenu = () => {
@@ -15,9 +17,11 @@ const Nav = () => {
     const handleHideNav = () => {
         setHideNav(true)
     }
+   
     // ~~~~~~~~~~~~~~~~~~~~~
     // Props to: https://www.codemzy.com/blog/react-hook-scroll-direction-event-listener
     useEffect(() => {
+        
         let lastScrollY = window.pageYOffset;
         // function to run on scroll
         const updateScrollDirection = () => {
@@ -32,8 +36,11 @@ const Nav = () => {
         window.addEventListener("scroll", updateScrollDirection); // add event listener
 
         const handleWindowResize = () => {
-            setWindowSize([window.innerWidth, window.innerHeight])
-          }
+            setWindowSize([window.innerWidth, window.innerHeight]);
+            setMobile(window.innerWidth < minWidth);
+            setDesktop(window.innerWidth > minWidth);
+          };
+
         window.addEventListener('resize', handleWindowResize)
 
         return () => {
@@ -44,7 +51,7 @@ const Nav = () => {
     }, [hideNav]); // run when scroll direction changes
     // ~~~~~~~~~~~~~~~~~~~~~~
 
-    if(windowSize[0] < 900) { // this is the mobile NAV
+    if(mobile) { // this is the mobile NAV
         return (
             <>
                 {hideNav ?  
@@ -83,32 +90,11 @@ const Nav = () => {
                     :
                     <nav className="navContainer">
                         <header className='header'><b>Men of Mission and Service</b></header>
-                        <div className="menuContainer">
-                                <ul className="menuList">
-                                    <li><a href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
-                                    <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
-                                    {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
-                                </ul>
-                            </div>
-                        {/* <div className='iconContainer'>  
-                        <i 
-                            className={menu ? "fa-solid fa-x" : "fa-solid fa-bars"} 
-                            id="menuIcon" 
-                            onClick={() => handleMenu()}>
-                        </i>
-                        </div> */}
-                        
-                        {menu ? 
-                            <div className="menuContainer">
-                                <ul className="menuList">
-                                    <li><a href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
-                                    <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
-                                    {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
-                                </ul>
-                            </div>
-                            : 
-                            <></> 
-                        }   
+                        <div className="menuList">
+                            <li><a href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
+                            <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
+                            {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
+                        </div>  
                     </nav>  
                 }
             </>

@@ -65,6 +65,10 @@ body {
   align-items: center;
   top: 2em;
  }
+ .article { 
+  display: flex;
+
+ }
  #groupPhoto {
   max-width: 100%;
   margin-bottom: -1em;
@@ -85,29 +89,44 @@ body {
 }
 
  /* styles for desktop when the browser is 600px or above */
- @media (min-width: 600px) {
+ @media (min-width: 900px) {
   body {
    background: thistle;
   }
   .navContainer {
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-    position: fixed;
-    width: 100%;
-    padding: .5em;
-    background: rgb(0, 0, 187);
-    color: gold;
-    font-size: 1.5em;
-   }
-   .menuContainer {
-    grid-column: 2;
+    grid-template-columns: 60% 40%;
+    font-size: 2em;
    }
    .menuList {
+    grid-column: 2;
+    font-size: .75em;
     display: flex;
+    /* left: -3em; */
    }
+   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+  .missionContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 35% 55% 10%; */
+    grid-template-rows: auto;
+  } 
   #groupPhoto {
     max-width: 45em;
     margin-bottom: -1em;
-   }
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .mission1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .mission2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .mission3 {
+    grid-column: 2;
+    grid-row: 3;
+  }
  }
  
