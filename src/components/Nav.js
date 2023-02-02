@@ -63,8 +63,8 @@ const Nav = () => {
                         {menu ? 
                             <div className="menuContainer">
                                 <ul className="menuList">
-                                    <li><a href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
-                                    <li><a href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
+                                    <li><a className="navLink" href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
+                                    <li><a className="navLink" href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
                                     {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
                                 </ul>
                             </div>
