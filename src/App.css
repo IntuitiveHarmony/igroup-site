@@ -1,16 +1,17 @@
 /* style for mobile */
 body {
-  background: rgb(120, 80, 120);
-  /* color: magenta; */
+  background: rgb(236, 226, 208);
+  color: rgb(50, 50, 50);
  }
  a {
   text-decoration: none;
   cursor: pointer;
-  color: magenta;
+  color: rgb(0, 110, 200);
  }
  h3 {
   margin-top: 2em;
   margin-bottom: .1em;
+  margin-left: 1em;
  }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  .navContainer {
@@ -21,8 +22,8 @@ body {
   position: fixed;
   width: 100%;
   padding: .5em;
-  background: rgb(0, 0, 187);
-  color: gold;
+  background: rgb(68, 69, 69);
+  color: rgb(0, 181, 245);
   font-size: 1.5em;
  }
  .header {
@@ -47,16 +48,12 @@ body {
  .menuList{
   list-style: none;
  }
+ .navLink {
+  color: rgb(0, 181, 245);
+ }
  .menuList > li {
   padding: .5em;
  }
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.content {
-  padding-right: 1.5em;
-  padding-left: 1.5em;
-  margin-bottom: 0em;
-  
-}
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
  .missionContainer {
   position: relative;
@@ -65,14 +62,19 @@ body {
   align-items: center;
   top: 2em;
  }
- .article { 
-  display: flex;
-
- }
  #groupPhoto {
+  background: #6114A4;
+  background: -moz-linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
+  background: -webkit-linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
+  background: linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
   max-width: 100%;
   margin-bottom: -1em;
  }
+ .content {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  margin-bottom: 0em;
+}
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
   top: 5em;
@@ -90,43 +92,40 @@ body {
 
  /* styles for desktop when the browser is 600px or above */
  @media (min-width: 900px) {
-  body {
-   background: thistle;
-  }
-  .navContainer {
-    grid-template-columns: 60% 40%;
-    font-size: 2em;
+   .navContainer {
+     grid-template-columns: 60% 40%;
+     font-size: 2em;
+    }
+    .menuList {
+     grid-column: 2;
+     font-size: .75em;
+     display: flex;
+     /* left: -3em; */
+    }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+   .missionContainer {
+     display: grid;
+     grid-template-columns: 50% 50%;
+     /* grid-template-rows: 35% 55% 10%; */
+     grid-template-rows: auto;
+   } 
+   #groupPhoto {
+     max-width: 45em;
+     margin-bottom: -1em;
+     grid-column: 1;
+     grid-row: 1;
    }
-   .menuList {
-    grid-column: 2;
-    font-size: .75em;
-    display: flex;
-    /* left: -3em; */
+   .mission1 {
+     grid-column: 1;
+     grid-row: 2;
    }
-   /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  .missionContainer {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    /* grid-template-rows: 35% 55% 10%; */
-    grid-template-rows: auto;
-  } 
-  #groupPhoto {
-    max-width: 45em;
-    margin-bottom: -1em;
-    grid-column: 1;
-    grid-row: 1;
-  }
-  .mission1 {
-    grid-column: 1;
-    grid-row: 2;
-  }
-  .mission2 {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  .mission3 {
-    grid-column: 2;
-    grid-row: 3;
-  }
+   .mission2 {
+     grid-column: 2;
+     grid-row: 2;
+   }
+   .mission3 {
+     grid-column: 2;
+     grid-row: 3;
+   }
  }
  
