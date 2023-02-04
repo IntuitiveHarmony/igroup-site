@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Mission />
+      <Mission id="mission" />
       <OpenCalendar id="calendar" />
     </>
   )

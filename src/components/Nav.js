@@ -7,8 +7,7 @@ const Nav = () => {
 
     const [menu, setMenu] = useState(false)
     const [hideNav, setHideNav] = useState(false)
-    const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight,
-      ]);
+    const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
     const [mobile, setMobile] = useState(window.innerWidth < minWidth)
     const [desktop, setDesktop] = useState(window.innerWidth > minWidth)  
     
@@ -18,15 +17,17 @@ const Nav = () => {
     }
     const handleHideNav = () => {
         setHideNav(true)
+        console.log('click')
     }
    
     // ~~~~~~~~~~~~~~~~~~~~~
-    // Props to: https://www.codemzy.com/blog/react-hook-scroll-direction-event-listener
+  
     useEffect(() => {
-        
+        // Props to: https://www.codemzy.com/blog/react-hook-scroll-direction-event-listener
+        // Props to chatGPT for help on the debounce
         let lastScrollY = window.pageYOffset;
-        // function to run on scroll
-        const updateScrollDirection = () => {
+        // wrap the updateScrollDirection function in debounce
+        const updateScrollDirection = debounce(() => {
             const scrollY = window.pageYOffset;
             const direction = scrollY > lastScrollY ? true : false;
             if (direction !== hideNav) {
@@ -34,24 +35,26 @@ const Nav = () => {
               setMenu(false)
             }
             lastScrollY = scrollY > 0 ? scrollY : 0;
-        };
+        }, 50); // set the debounce time to 200ms
+        
         window.addEventListener("scroll", updateScrollDirection); // add event listener
-
+      
         const handleWindowResize = () => {
             setWindowSize([window.innerWidth, window.innerHeight]);
             setMobile(window.innerWidth < minWidth);
             setDesktop(window.innerWidth > minWidth);
             setHideNav(false);
           };
-
+      
         window.addEventListener('resize', handleWindowResize)
-
+      
         return () => {
-            // window.removeEventListener("scroll", updateScrollDirection); // clean up
+            window.removeEventListener("scroll", updateScrollDirection); // clean up
             window.removeEventListener('resize', handleWindowResize)
         }
-
-    }, [hideNav]); // run when scroll direction changes
+      
+      }, [hideNav]); // run when scroll direction changes
+      
     // ~~~~~~~~~~~~~~~~~~~~~~
 
     if(mobile) { // this is the mobile NAV
@@ -73,7 +76,20 @@ const Nav = () => {
                         {menu ? 
                             <div className="menuContainer">
                                 <ul className="menuList">
-                                    <li className="navLink" onClick={() => handleHideNav()}><Link to="calendar" smooth={true}>Calendar</Link></li>
+                                    <li className="navLink">
+                                        <Link 
+                                            to="mission" 
+                                            smooth={true} 
+                                            onClick={() => handleHideNav()}
+                                            >Who are we?
+                                        </Link>
+                                        <Link 
+                                            to="calendar" 
+                                            smooth={true} 
+                                            onClick={() => handleHideNav()}
+                                            >Calendar
+                                        </Link>
+                                    </li>
                                     {/* <li><a className="navLink" href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
                                     <li><a className="navLink" href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li> */}
                                     {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
@@ -95,8 +111,18 @@ const Nav = () => {
                     <nav className="navContainer">
                         <header className='header'><b>Men of Mission and Service</b></header>
                         <div className="menuList">
-                            <li><a className="navLink" href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
-                            <li><a className="navLink" href="#calendar" onClick={() => handleHideNav()}>Open Meetings</a></li>
+                            <Link 
+                                to="mission" 
+                                smooth={true} 
+                                onClick={() => handleHideNav()}
+                                >Who are we?
+                            </Link>
+                            <Link 
+                                to="calendar" 
+                                smooth={true} 
+                                onClick={() => handleHideNav()}
+                                >Calendar
+                            </Link>
                             {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
                         </div>  
                     </nav>  
@@ -108,3 +134,4 @@ const Nav = () => {
 }
 
 export default Nav
+  
