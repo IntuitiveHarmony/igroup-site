@@ -7,6 +7,11 @@ const Mission = () => {
         <>
             <div className="missionContainer" id="mission">
                 <img id="groupPhoto" src={photo} />
+                <div>
+                    <h3>Welcome</h3>
+                    <p>The purpose of this website is to provide you with some ground level information about our men's group, Denver Hunting Party (DHP) and guide you through the steps to attend one of our “Open Circles” should you have interest in participating.</p>
+                </div>
+
                 <div className="mission1">
                     <h3>What We Do:</h3>
                     <p className="content">Men of Mission and Service (MMS) was formed in late 2022 as a circle dedicated to introducing basic concepts common to many mens' support groups, and to personal development in general.</p>

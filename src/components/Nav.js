@@ -85,8 +85,9 @@ const Nav = () => {
                                             className="navLink"
                                             to="mission" 
                                             smooth={true} 
+                                            offset={-30}
                                             onClick={() => handleHideNav()}
-                                            >Who are we?
+                                            >Welcome
                                         </Link>
                                     </li>
                                     <li>
@@ -95,7 +96,7 @@ const Nav = () => {
                                             to="calendar" 
                                             smooth={true} 
                                             onClick={() => handleHideNav()}
-                                            >Calendar
+                                            >Open Circles
                                         </Link>
                                     </li>
                                     {/* <li><a className="navLink" href="#mission" onClick={() => handleHideNav()}>Who Are We?</a></li>
@@ -124,14 +125,15 @@ const Nav = () => {
                                 to="mission" 
                                 smooth={true} 
                                 // onClick={() => handleHideNav()}
-                                >Who are we?
+                                >Welcome
                             </Link>
                             <Link 
                                 className="navLink"
                                 to="calendar" 
                                 smooth={true} 
+                                offset={-50}
                                 // onClick={() => handleHideNav()}
-                                >Calendar
+                                >Open Circles
                             </Link>
                             {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}
                         </div>  
