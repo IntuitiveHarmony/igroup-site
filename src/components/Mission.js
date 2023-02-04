@@ -8,7 +8,7 @@ const Mission = () => {
             <div className="missionContainer" id="mission">
                 <img id="groupPhoto" src={photo} />
                 <div className="mission1">
-                <h3>What We Do:</h3>
+                    <h3>What We Do:</h3>
                     <p className="content">Men of Mission and Service (MMS) was formed in late 2022 as a circle dedicated to introducing basic concepts common to many mens' support groups, and to personal development in general.</p>
                     <p className="content">Driven by cornerstone teachings and concepts in psychology, especially around the work upon "shadow" as described by Carl Jung, Robert Bly, and others, in MMS' Open Men's Circle  meetings, organizers and attendees reference and work from four primary archetypes as a template for reflection and growth: Lover, Warrior, Magician, and King.</p>
                     <p className="content">MMS supports men to consciously work with their shadows and develop their gold; in other words, by working with the disowned or denied parts of ourselves we can discover and develop powerful underlying positive attributes. This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</p>
