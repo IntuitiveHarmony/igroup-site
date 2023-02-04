@@ -17,7 +17,6 @@ const Nav = () => {
     }
     const handleHideNav = () => {
         setHideNav(true)
-        console.log('click')
     }
    
     // ~~~~~~~~~~~~~~~~~~~~~
@@ -31,8 +30,13 @@ const Nav = () => {
             const scrollY = window.pageYOffset;
             const direction = scrollY > lastScrollY ? true : false;
             if (direction !== hideNav) {
-              setHideNav(direction);
-              setMenu(false)
+                if (mobile) {
+                    setHideNav(direction);
+                } else {
+                    setHideNav(false)
+                }
+              
+                setMenu(false)
             }
             lastScrollY = scrollY > 0 ? scrollY : 0;
         }, 50); // set the debounce time to 200ms
@@ -76,14 +80,18 @@ const Nav = () => {
                         {menu ? 
                             <div className="menuContainer">
                                 <ul className="menuList">
-                                    <li className="navLink">
+                                    <li>
                                         <Link 
+                                            className="navLink"
                                             to="mission" 
                                             smooth={true} 
                                             onClick={() => handleHideNav()}
                                             >Who are we?
                                         </Link>
+                                    </li>
+                                    <li>
                                         <Link 
+                                            className="navLink"
                                             to="calendar" 
                                             smooth={true} 
                                             onClick={() => handleHideNav()}
@@ -112,15 +120,17 @@ const Nav = () => {
                         <header className='header'><b>Men of Mission and Service</b></header>
                         <div className="menuList">
                             <Link 
+                                className="navLink"
                                 to="mission" 
                                 smooth={true} 
-                                onClick={() => handleHideNav()}
+                                // onClick={() => handleHideNav()}
                                 >Who are we?
                             </Link>
                             <Link 
+                                className="navLink"
                                 to="calendar" 
                                 smooth={true} 
-                                onClick={() => handleHideNav()}
+                                // onClick={() => handleHideNav()}
                                 >Calendar
                             </Link>
                             {/* <li><a href="#commitments" onClick={() => handleHideNav()}>Become a Member</a></li> */}

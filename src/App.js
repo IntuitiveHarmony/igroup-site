@@ -9,8 +9,8 @@ const App = () => {
   return (
     <>
       <Nav />
-      <Mission id="mission" />
-      <OpenCalendar id="calendar" />
+      <Mission id="mission" className="missionSection" />
+      <OpenCalendar id="calendar" className="calendarSection" />
     </>
   )
 }
