@@ -2,14 +2,13 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-scroll'
 import { debounce } from 'lodash';
 
-const Nav = () => {
-    const minWidth = 900;
+const Nav = (props) => {
 
     const [menu, setMenu] = useState(false)
     const [hideNav, setHideNav] = useState(false)
     const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
-    const [mobile, setMobile] = useState(window.innerWidth < minWidth)
-    const [desktop, setDesktop] = useState(window.innerWidth > minWidth)  
+    const [mobile, setMobile] = useState(window.innerWidth < props.minWidth)
+    const [desktop, setDesktop] = useState(window.innerWidth > props.minWidth)  
     
 
     const handleMenu = () => {
@@ -45,8 +44,8 @@ const Nav = () => {
       
         const handleWindowResize = () => {
             setWindowSize([window.innerWidth, window.innerHeight]);
-            setMobile(window.innerWidth < minWidth);
-            setDesktop(window.innerWidth > minWidth);
+            setMobile(window.innerWidth < props.minWidth);
+            setDesktop(window.innerWidth > props.minWidth);
             setHideNav(false);
           };
       
