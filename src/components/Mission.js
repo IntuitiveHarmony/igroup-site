@@ -1,6 +1,7 @@
 import photo from "../images/groupPhotoClear.png"
+import { Link } from 'react-scroll'
 
-const Mission = () => {
+const Mission = (props) => {
    
     
     return (
@@ -20,21 +21,33 @@ const Mission = () => {
                 <div className="weDo">
                     <h3>What We Do:</h3>
                     <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves.  This looks like:</p>
-                    <ul>
+                    <ul className="doLists">
                         <li>Meetings are self-directed, and based on a set structure that guides men through specific masculine archetypes step by step (Lover, Warrior, Magician, and King)</li>
                         <li>We work honestly with the “Shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                         <li>We recognize and bring forth our particular “Gold”</li>
                         <li>This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</li>
-                        <li>We do have required rules and guidelines /agreements for participation, to ensure a mutually supportive space</li>
+                        <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required rules and guidelines /agreements</a>, to ensure a mutually supportive space</li>
                         <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                     </ul>
-                    <p className="content">Men of Mission and Service Open Circles are hosted once a month on a personal invitation basis.  Denver Hunting Party meets more frequently. </p>
+                    <p className="content">Men of Mission and Service {props.mobile ? 
+                    <Link className="contentLink" to="calendar" smooth={true} 
+                    // onClick={() => handleHideNav()}
+                    >Open Circles</Link> 
+                    : 
+                    <Link className="contentLink" to="calendar" smooth={true} offset={-50} >Open Circles</Link> } are hosted once a month on a personal invitation basis.  Denver Hunting Party meets more frequently. </p>
                 </div>
+
+                
 
                 <div className="weDont">
                     <h3>What We Don't Do:</h3>
-                    <p className="content">We are entirely self-guided, working independently without any professional oversight. Yet we do aim to bring some level of training and experience to our circles, such as that which can be gained by taking seminars, courses, and the like. It is critical to understand that we are not and do not claim to act as trained therapists, or as other relevant professionals. As such we are unable to support men with significant psychological disorders, or those with untreated or ongoing substance abuse issues.</p>
-                    <p className="content">We don't offer advice or feedback, unless explicitly requested. This is a support environment, and not a talk group or a recovery group. In appropriate circumstances, typically with full disclosure and outside counsel, there may be some degree of overlap between such types of groups and this one.</p>
+                    <p className="content">We are entirely self-guided, working independently without any professional oversight. We bring some level of training and experience of men's work based on weekend workshops and courses.</p>
+                    <ul className="doLists">
+                        <li>We are not and do not claim to act as trained therapists or professional healers</li>
+                        <li>As such, we are unable to support men with significant psychological disorders, or those with untreated or ongoing substance abuse issues</li>
+                        <li>We don't offer advice or feedback, unless explicitly requested</li>
+                        <li>This is a support environment, and not a talk therapy group or a recovery group</li>
+                    </ul>
                 </div>
 
                 <div className="ourMission">

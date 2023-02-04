@@ -16,7 +16,7 @@ const App = () => {
         mobile={mobile} 
         setMobile={setMobile}
         />
-      <Mission id="mission" className="missionSection" />
+      <Mission id="mission" className="missionSection" mobile={mobile} />
       <OpenCalendar id="calendar" className="calendarSection" />
     </>
   )
