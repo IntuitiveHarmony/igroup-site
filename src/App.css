@@ -120,8 +120,9 @@ body {
     }
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     .missionContainer {
+      /* display: flex; */
       display: grid;
-      grid-template-columns: 50% 50%;
+      grid-template-columns: 70% auto;
       /* grid-template-rows: 35% 55% 10%; */
       grid-template-rows: auto;
     } 
@@ -130,6 +131,10 @@ body {
       margin-bottom: -1em;
       grid-column: 1;
       grid-row: 1;
+    }
+    .welcome {
+      left: -4em;
+      /* grid-column: 1; */
     }
     .mission1 {
       grid-column: 1;
