@@ -26,7 +26,7 @@ const Mission = (props) => {
                         <li>We work honestly with the “Shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                         <li>We recognize and bring forth our particular “Gold”</li>
                         <li>This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</li>
-                        <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required rules and guidelines /agreements</a>, to ensure a mutually supportive space</li>
+                        <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required Rules and Guidelines/ Agreements</a>, to ensure a mutually supportive space</li>
                         <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                     </ul>
                     <p className="content">Men of Mission and Service {props.mobile ? 

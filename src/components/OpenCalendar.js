@@ -10,7 +10,7 @@ const OpenCalendar = () => {
 
             <p className="content">As the organizers and hosts of these meetings, we reserve the complete and unilateral right to limit the size of the meetings, if or when necessary, and to invite or disinvite any attendee or prospect.</p>
 
-            <p className="content">Therefore, it is imperative that we know of your intended attendance and are confident of your cooperation in keeping with our standards of conduct by completing our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines.</a> (link opens Google form in new tab) If you plan to attend, send us notice at least 24 hours in advance of an Open Circle date via email, or our mobile chat app, Discord (which is our preferred mode of communication).</p>
+            <p className="content">Therefore, it is imperative that we know of your intended attendance and are confident of your cooperation in keeping with our standards of conduct by completing our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements.</a> If you plan to attend, send us notice at least 24 hours in advance of an Open Circle date via email, or our mobile chat app, Discord (which is our preferred mode of communication).</p>
 
             <p className="content">Download Discord for desktop or mobile: <a href="https://discord.com/download" target="_blank" rel="noopener noreferrer">https://discord.com/download</a></p>
 
