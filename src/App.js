@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Nav />
       <Mission />
-      <OpenCalendar />
+      <OpenCalendar id="calendar" />
     </>
   )
 }
