@@ -7,8 +7,7 @@ const Nav = (props) => {
     const [menu, setMenu] = useState(false)
     const [hideNav, setHideNav] = useState(false)
     const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
-    const [mobile, setMobile] = useState(window.innerWidth < props.minWidth)
-    const [desktop, setDesktop] = useState(window.innerWidth > props.minWidth)  
+     
     
 
     const handleMenu = () => {
@@ -24,28 +23,25 @@ const Nav = (props) => {
         // Props to: https://www.codemzy.com/blog/react-hook-scroll-direction-event-listener
         // Props to chatGPT for help on the debounce
         let lastScrollY = window.pageYOffset;
-        // wrap the updateScrollDirection function in debounce
+        // wrap the updateScrollDirection function in debounce so the NAV bar doesn't flicker on scroll
         const updateScrollDirection = debounce(() => {
             const scrollY = window.pageYOffset;
             const direction = scrollY > lastScrollY ? true : false;
             if (direction !== hideNav) {
-                if (mobile) {
+                if (props.mobile) {
                     setHideNav(direction);
                 } else {
                     setHideNav(false)
                 }
-              
                 setMenu(false)
             }
             lastScrollY = scrollY > 0 ? scrollY : 0;
-        }, 50); // set the debounce time to 200ms
-        
+        }, 25); // set the debounce time in ms
         window.addEventListener("scroll", updateScrollDirection); // add event listener
       
         const handleWindowResize = () => {
             setWindowSize([window.innerWidth, window.innerHeight]);
-            setMobile(window.innerWidth < props.minWidth);
-            setDesktop(window.innerWidth > props.minWidth);
+            props.setMobile(window.innerWidth < props.minWidth);
             setHideNav(false);
           };
       
@@ -60,7 +56,7 @@ const Nav = (props) => {
       
     // ~~~~~~~~~~~~~~~~~~~~~~
 
-    if(mobile) { // this is the mobile NAV
+    if(props.mobile) { // this is the mobile NAV
         return (
             <>
                 {hideNav ?  
