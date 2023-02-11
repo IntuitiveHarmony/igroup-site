@@ -1,9 +1,9 @@
 import photo from "../images/groupPhotoClear.png"
 import { Link } from 'react-scroll'
 
+
 const Mission = (props) => {
-   
-    
+
     return (
         <>
             <div className="missionContainer" id="mission">
