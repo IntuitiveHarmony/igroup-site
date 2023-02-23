@@ -8,7 +8,6 @@ const Nav = (props) => {
     const [hideNav, setHideNav] = useState(false)
     const [windowSize, setWindowSize] = useState([window.innerWidth, window.innerHeight]);
      
-    
 
     const handleMenu = () => {
         setMenu(!menu)
