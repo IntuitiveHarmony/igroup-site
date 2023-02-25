@@ -71,6 +71,10 @@ body {
   align-items: center;
   top: 2em;
  }
+ .missionContentContainer {
+  background-color: rgba(227, 223, 218, 1);
+  margin-top: -25%;
+ }
  #groupPhoto {
   background: #6114A4;
   background: -moz-linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
@@ -140,12 +144,13 @@ body {
   .missionContentContainer {
     /* margin-top: -25em; */
     display: flex;
-    position: absolute; 
+    /* margin-top: -25%; */
+    /* position: absolute;  */
     
     /* display: grid; */
     /* grid-template-columns: 45% auto;
     border: 1px solid yellow; */
-    background-color: rgba(68, 174, 226, 0.8);
+    /* background-color: rgba(227, 223, 218, 1); */
   }
   .leftColumn {
     max-width: 45%;
