@@ -130,6 +130,8 @@ body {
   } 
   #groupPhoto {
     width: 100%;
+    /* max-height: 50em; */
+    margin-top: -3em;
     /* position: absolute;  */
     /* margin-bottom: -1em;
     grid-column: 1 / span 2;
@@ -138,12 +140,12 @@ body {
   .missionContentContainer {
     /* margin-top: -25em; */
     display: flex;
-    /* position: absolute;  */
- 
+    position: absolute; 
+    
     /* display: grid; */
     /* grid-template-columns: 45% auto;
-    border: 1px solid yellow;
-    background-color: rgba(68, 174, 226, 0.8); */
+    border: 1px solid yellow; */
+    background-color: rgba(68, 174, 226, 0.8);
   }
   .leftColumn {
     max-width: 45%;
