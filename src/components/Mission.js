@@ -1,4 +1,4 @@
-import photo from "../images/groupPhotoClear.png"
+import photo from "../images/groupPhoto.png"
 import { Link } from 'react-scroll'
 
 
@@ -12,30 +12,30 @@ const Mission = (props) => {
                     <div className="leftColumn">
                         <div className="welcome">
                             <h1>Welcome</h1>
-                            <p className="content">The purpose of this website is to provide you with some ground level information about our men's group, Denver Hunting Party (DHP) and guide you through the steps to attend one of our “Open Circles” should you have interest in participating.</p>
+                            <p className="content">The purpose of this website is to provide you with some ground-level information about Men of Mission and Service and guide you through the steps to attend one of our “Men’s Open Circles” should you have interest in participating.</p>
                         </div>
 
                         <div className="background">
                             <h3>Background</h3>
-                            <p className="content">Open Circles are hosted by the Denver Hunting Party. DHP is a dedicated space for men to mutually support one another and has met bi-monthly since 2013. In late 2022, we committed to lean into the service dimension of our mission and host monthly “Open Meetings” for men and do so under the namesake “Men of Mission and Service (MMS).</p>
+                            <p className="content">Men of Mission and Service hosts regular “Men’s Open Circles” for men from the larger community/public to experience the merit of “Men’s Work.” These meetings are run by two long-standing, local men’s groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
 
-                        <div className="ourMission">
+                        {/* <div className="ourMission">
                             <h3>Our Mission</h3>
                             <p className="content"><i>We are thoughtful, caring men co-creating a safe container environment for personal growth as we deepen our connection to the mature masculine. We show up with authenticity, vulnerability, honesty, compassion and the courage to do our individual work. In addition, we are accountable by setting personal goals; initiating acts of service; offering support; and being present for the entire group.</i></p>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="rightColumn">
                         <div className="weDo">
                             <h3>What We Do</h3>
-                            <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves.  This looks like:</p>
+                            <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves. This looks like:</p>
                             <ul className="doLists">
                                 <li>Meetings are self-directed, and based on a set structure that guides men through specific masculine archetypes step by step (Lover, Warrior, Magician, and King)</li>
-                                <li>We work honestly with the “Shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
+                                <li>We work honestly with the “shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                                 <li>We recognize and bring forth our particular “Gold”</li>
                                 <li>This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</li>
-                                <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required Rules and Guidelines/ Agreements</a>, to ensure a mutually supportive space</li>
+                                <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required Rules and Guidelines/ Agreements <i class="fa-solid fa-up-right-from-square"></i></a>, to ensure a mutually supportive space</li>
                                 <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                             </ul>
                             <p className="content">Men of Mission and Service {props.mobile ? // mobile vs desktop links have diffrent offset
@@ -43,7 +43,7 @@ const Mission = (props) => {
                             // onClick={() => handleHideNav()}
                             >Open Circles</Link> 
                             : 
-                            <Link className="contentLink" to="calendar" smooth={true} offset={-50} >Open Circles</Link> } are hosted once a month on a personal invitation basis.  Denver Hunting Party meets more frequently. </p>
+                            <Link className="contentLink" to="calendar" smooth={true} offset={-50} >Open Circles</Link> } are hosted about every five weeks.</p>
                         </div>
 
                         <div className="weDont">
