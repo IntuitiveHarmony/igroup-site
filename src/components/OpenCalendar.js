@@ -8,7 +8,7 @@ const OpenCalendar = () => {
             <h1 className="circleHeader">Attend an Open Circle</h1>
             <p className="content">Men of Mission and Service hosts "Men's Open Circle" about once every five weeks, which is available to any man interested in personal growth and development. <b>Future known dates are posted below.</b></p>
 
-            <p className="content">As the organizers and hosts of these meetings, we strive to create a safe and supportive environment, which can only be done with the full cooperation of our guests.  It is imperative that we know of your intended attendance and are confident of your cooperation in keeping with our standards of conduct by completing our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements.</a></p>
+            <p className="content">As the organizers and hosts of these meetings, we strive to create a safe and supportive environment, which can only be done with the full cooperation of our guests.  It is imperative that we know of your intended attendance and are confident of your cooperation in keeping with our standards of conduct by completing our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements. <i class="fa fa-up-right-from-square"></i></a></p>
           
             <p className="content">We reserve the complete and unilateral right to limit the size of the meetings, if or when necessary, and to invite or disinvite any attendee or prospect.</p>
 

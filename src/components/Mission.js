@@ -12,12 +12,12 @@ const Mission = (props) => {
                     <div className="leftColumn">
                         <div className="welcome">
                             <h1>Welcome</h1>
-                            <p className="content">The purpose of this website is to provide you with some ground-level information about Men of Mission and Service and guide you through the steps to attend one of our “Men’s Open Circles” should you have interest in participating.</p>
+                            <p className="content">The purpose of this website is to provide you with some ground-level information about Men of Mission and Service and guide you through the steps to attend one of our “Men's Open Circles” should you have interest in participating.</p>
                         </div>
 
                         <div className="background">
                             <h3>Background</h3>
-                            <p className="content">Men of Mission and Service hosts regular “Men’s Open Circles” for men from the larger community/public to experience the merit of “Men’s Work.” These meetings are run by two long-standing, local men’s groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
+                            <p className="content">Men of Mission and Service hosts regular “Men's Open Circles” for men from the larger community/public to experience the merit of “Men's Work.” These meetings are run by two long-standing, local men's groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
 
                         {/* <div className="ourMission">
@@ -35,7 +35,7 @@ const Mission = (props) => {
                                 <li>We work honestly with the “shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                                 <li>We recognize and bring forth our particular “Gold”</li>
                                 <li>This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</li>
-                                <li>We do have <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">required Rules and Guidelines/ Agreements <i class="fa-solid fa-up-right-from-square"></i></a>, to ensure a mutually supportive space</li>
+                                <li>We do have required <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements <i class="fa fa-up-right-from-square"></i></a>, to ensure a mutually supportive space</li>
                                 <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                             </ul>
                             <p className="content">Men of Mission and Service {props.mobile ? // mobile vs desktop links have diffrent offset

@@ -4,7 +4,7 @@ function Footer() {
 
 
     return (
-        <footer>Hai</footer>
+        <footer>Hai from the footer!</footer>
     )
 
 }
