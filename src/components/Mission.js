@@ -1,4 +1,5 @@
 import photo from "../images/groupPhoto.png"
+import treePhoto from "../images/tree.gif"
 import { Link } from 'react-scroll'
 
 
@@ -11,7 +12,7 @@ const Mission = (props) => {
                 <div className="missionContentContainer">
                     <div className="leftColumn">
                         <div className="welcome">
-                            <h1>Welcome</h1>
+                            <h1 className="blueShadow">Welcome</h1>
                             <p className="content">The purpose of this website is to provide you with some ground-level information about Men of Mission and Service and guide you through the steps to attend one of our “Men's Open Circles” should you have interest in participating.</p>
                         </div>
 
@@ -19,14 +20,15 @@ const Mission = (props) => {
                             <h3>Background</h3>
                             <p className="content">Men of Mission and Service hosts regular “Men's Open Circles” for men from the larger community/public to experience the merit of “Men's Work.” These meetings are run by two long-standing, local men's groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
-
+                        <img className="treeImg" src='https://cdn.discordapp.com/attachments/1014393155803693166/1093766839257018449/Intuitive_Harmony_nice_picture_of_a_sunny_day_trees_sky_40253c53-ed55-4b84-9d86-a1c69edccafa.png'/>
+                        {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">
                             <h3>Our Mission</h3>
                             <p className="content"><i>We are thoughtful, caring men co-creating a safe container environment for personal growth as we deepen our connection to the mature masculine. We show up with authenticity, vulnerability, honesty, compassion and the courage to do our individual work. In addition, we are accountable by setting personal goals; initiating acts of service; offering support; and being present for the entire group.</i></p>
                         </div> */}
                     </div>
 
-                    <div className="rightColumn">
+                    <div className="rightColumn chalkBoard">
                         <div className="weDo">
                             <h3>What We Do</h3>
                             <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves. This looks like:</p>

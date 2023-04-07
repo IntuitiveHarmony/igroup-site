@@ -99,8 +99,9 @@ body {
   font-family: "FontAwesome";
   content: "\f00c";
   margin:0 10px 0 -26px;
-  color: #17aa1c;
+  color: #19811c;
 }
+/* for the red checkmarks */
 .redCheck li:before {
   font-family: "FontAwesome";
   content: "\58";
@@ -124,6 +125,27 @@ body {
 .green {
   color: green;
 }
+.purple {
+  color: #6114A4;
+}
+.blueShadow {
+  color: rgb(0, 67, 112);
+  text-shadow:
+    /* 4px 4px 0px #6114A4, */
+    3px 3px 0px rgba(35, 136, 203, .5);
+    /* 12px 12px 0px #00FFFFFF; */
+}
+.chalkBoard {
+  border: .4em solid rgb(4, 87, 142);
+  background-color: rgb(174, 174, 174);
+}
+.treeImg {
+  max-height: 350px;
+  max-width: 500px;
+  padding: 2em;
+}
+
+
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
