@@ -3,9 +3,9 @@
 function Footer() {
 
 
-    return (
-        <footer>Hai from the footer!</footer>
-    )
+    // return (
+    //     <footer>Hai from the footer!</footer>
+    // )
 
 }
 

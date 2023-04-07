@@ -30,7 +30,7 @@ const Mission = (props) => {
 
                     <div className="rightColumn chalkBoard">
                         <div className="weDo">
-                            <h3>What We Do</h3>
+                            <h3><u>What We Do</u></h3>
                             <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves. This looks like:</p>
                             <ul className="doList greenCheck">
                                 <li>Meetings are self-directed, and based on a set structure that guides men through specific masculine archetypes step by step (Lover, Warrior, Magician, and King)</li>
@@ -49,7 +49,7 @@ const Mission = (props) => {
                         </div>
 
                         <div className="weDont">
-                            <h3>What We Don't Do</h3>
+                            <h3><u>What We Don't Do</u></h3>
                             <p className="content">We are entirely self-guided, working independently without any professional oversight. We bring some level of training and experience of men's work based on weekend workshops and courses.</p>
                             <ul className="doList redCheck">
                                 <li>We are not and do not claim to act as trained therapists or professional healers</li>

@@ -7,6 +7,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: rgb(0, 110, 200);
+  font-weight: bold;
  }
  h1 {
   margin-left: .5em;
@@ -101,15 +102,18 @@ body {
   margin:0 10px 0 -26px;
   color: #19811c;
 }
-.leftColumn {
-  
-}
 /* for the red checkmarks */
 .redCheck li:before {
   font-family: "FontAwesome";
   content: "\58";
   margin:0 10px 0 -26px;
   color: #aa1717;
+}
+.handCheck li:before {
+  font-family: "FontAwesome";
+  content: "\f0a4";
+  margin: 0 10px 0 -20px;
+  color: rgb(0, 67, 112);
 }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
@@ -143,14 +147,30 @@ body {
   background-color: rgb(174, 174, 174);
 }
 .treeImg {
-  max-height: 350px;
+  margin: 0 auto;
+  max-height: 400px;
   max-width: 500px;
-  /* padding: 2em; */
 }
 .background {
   margin-bottom: 2em;
 }
-
+.dates > li {
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-bottom: .5em;
+}
+.steps > li {
+  list-style: none;
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-bottom: .5em;
+}
+.subSteps > li {
+  list-style: none;
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-bottom: .5em;
+}
 
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
