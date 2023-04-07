@@ -101,6 +101,9 @@ body {
   margin:0 10px 0 -26px;
   color: #19811c;
 }
+.leftColumn {
+  
+}
 /* for the red checkmarks */
 .redCheck li:before {
   font-family: "FontAwesome";
@@ -142,7 +145,10 @@ body {
 .treeImg {
   max-height: 350px;
   max-width: 500px;
-  padding: 2em;
+  /* padding: 2em; */
+}
+.background {
+  margin-bottom: 2em;
 }
 
 
