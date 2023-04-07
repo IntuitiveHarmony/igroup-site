@@ -30,7 +30,7 @@ const Mission = (props) => {
                         <div className="weDo">
                             <h3>What We Do</h3>
                             <p className="content">In essence, our meetings are a safe place to give and receive support from fellow men; to work through challenges and grow into a fuller version of ourselves. This looks like:</p>
-                            <ul className="doLists">
+                            <ul className="doList greenCheck">
                                 <li>Meetings are self-directed, and based on a set structure that guides men through specific masculine archetypes step by step (Lover, Warrior, Magician, and King)</li>
                                 <li>We work honestly with the “shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                                 <li>We recognize and bring forth our particular “Gold”</li>
@@ -49,7 +49,7 @@ const Mission = (props) => {
                         <div className="weDont">
                             <h3>What We Don't Do</h3>
                             <p className="content">We are entirely self-guided, working independently without any professional oversight. We bring some level of training and experience of men's work based on weekend workshops and courses.</p>
-                            <ul className="doLists">
+                            <ul className="doList redCheck">
                                 <li>We are not and do not claim to act as trained therapists or professional healers</li>
                                 <li>As such, we are unable to support men with significant psychological disorders, or those with untreated or ongoing substance abuse issues</li>
                                 <li>We don't offer advice or feedback, unless explicitly requested</li>

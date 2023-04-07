@@ -88,9 +88,24 @@ body {
   padding-left: 1.5em;
   margin-bottom: 0em;
 }
-.doLists > li {
+.doList > li {
+  list-style: none;
+  padding-left: 1em;
   padding-right: 2em;
   padding-bottom: .5em;
+}
+/* for the green checkmarks */
+.greenCheck li:before {
+  font-family: "FontAwesome";
+  content: "\f00c";
+  margin:0 10px 0 -26px;
+  color: #17aa1c;
+}
+.redCheck li:before {
+  font-family: "FontAwesome";
+  content: "\58";
+  margin:0 10px 0 -26px;
+  color: #aa1717;
 }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
@@ -106,7 +121,9 @@ body {
   margin-top: 2em;
   margin-bottom: 3em;
 }
-
+.green {
+  color: green;
+}
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
