@@ -160,6 +160,7 @@ body {
     /* 12px 12px 0px #00FFFFFF; */
 }
 .chalkBoard {
+  margin-top: 2em;
   border: .4em solid rgb(4, 87, 142);
   background-color: rgb(174, 174, 174);
 }
