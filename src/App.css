@@ -115,6 +115,16 @@ body {
   margin: 0 10px 0 -20px;
   color: rgb(0, 67, 112);
 }
+.calendarCheck > li:before {
+  color: rgb(0, 67, 112);
+  text-shadow:
+    /* 4px 4px 0px #6114A4, */
+    3px 3px 0px rgba(35, 136, 203, .5);
+  font-family: "FontAwesome";
+  content: "\2a";
+  margin: 0 10px 0 -20px;
+  /* color: rgb(1, 138, 172); */
+}
 
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
@@ -143,6 +153,12 @@ body {
     3px 3px 0px rgba(35, 136, 203, .5);
     /* 12px 12px 0px #00FFFFFF; */
 }
+.blueBoxShadow {
+  box-shadow:
+    /* 4px 4px 0px #6114A4, */
+    17px 17px 0px rgba(35, 136, 203, .5);
+    /* 12px 12px 0px #00FFFFFF; */
+}
 .chalkBoard {
   border: .4em solid rgb(4, 87, 142);
   background-color: rgb(174, 174, 174);
@@ -152,10 +168,16 @@ body {
   max-height: 400px;
   max-width: 500px;
 }
+.riverImg {
+  margin: 0 auto;
+  max-width: 80%;
+}
 .background {
   margin-bottom: 2em;
 }
 .dates > li {
+  list-style: none;
+  font-size: 1.2em;
   padding-left: 1em;
   padding-right: 2em;
   padding-bottom: .5em;
@@ -167,9 +189,6 @@ body {
   padding-bottom: .5em;
 }
 .subSteps > li {
-  /* list-style: none; */
-  
-  /* padding-left: 1em; */
   padding-right: 2em;
   padding-bottom: .5em;
 }
@@ -218,5 +237,6 @@ body {
   .circleContentContainer {
     max-width: 45%;
   }
+  
 }
  

@@ -1,5 +1,5 @@
 import photo from "../images/groupPhoto.png"
-import treePhoto from "../images/tree.gif"
+import tree from "../images/tree.png"
 import { Link } from 'react-scroll'
 
 
@@ -20,7 +20,7 @@ const Mission = (props) => {
                             <h3>Background</h3>
                             <p className="content">Men of Mission and Service hosts regular “Men's Open Circles” for men from the larger community/public to experience the merit of “Men's Work.” These meetings are run by two long-standing, local men's groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
-                        <img className="treeImg" src='https://cdn.discordapp.com/attachments/1014393155803693166/1093766839257018449/Intuitive_Harmony_nice_picture_of_a_sunny_day_trees_sky_40253c53-ed55-4b84-9d86-a1c69edccafa.png'/>
+                        <img className="treeImg blueBoxShadow" src={tree} />
                         {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">
                             <h3>Our Mission</h3>
