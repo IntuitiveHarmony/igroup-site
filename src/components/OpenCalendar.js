@@ -18,16 +18,16 @@ const OpenCalendar = () => {
             <p className="content"><b>If you plan to attend, send us notice at least 24 hours in advance of an Open Circle date</b> via email, or our mobile chat app, Discord (which is our preferred mode of communication).</p>
 
             <div className="chalkBoard">
-            <h2 className="content">Sign Up for an Open Circle!</h2>
-            <ul className="steps handCheck">
-              <li><b>Step 1: </b>Read and submit our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements. <i class="fa fa-up-right-from-square"></i></a></li>
-              <li><b>Step 2: Let us know you are coming</b></li>
-                <ul className="subSteps">
-                  <li>Download Discord for desktop or mobile: <a href='https://discord.com/download' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a> <br/> Join the Men of Mission and Service (MMS) Discord Server: <a href='https://discord.gg/9XbrvPdG' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a></li>
-                  <li>Old school? Send us an email: <a href="mailto:menofmissionandservice@gmail.com">menofmissionandservice@gmail.com</a></li>
-                </ul>
-              <li><b>Step 3: </b>You will receive a personal confirmation message with further details about the meetings.</li>
-            </ul>
+              <h2 className="content">Sign Up for an Open Circle!</h2>
+              <ul className="steps handCheck">
+                <li><b>Step 1: </b>Read and submit our <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements. <i class="fa fa-up-right-from-square"></i></a></li>
+                <li><b>Step 2: </b>Let us know you are coming</li>
+                  <ul className="subSteps">
+                    <li>Download Discord for desktop or mobile: <a href='https://discord.com/download' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a> <br/> Join the Men of Mission and Service (MMS) Discord Server: <a href='https://discord.gg/9XbrvPdG' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a></li>
+                    <li>Old school? Send us an email: <a href="mailto:menofmissionandservice@gmail.com">menofmissionandservice@gmail.com</a></li>
+                  </ul>
+                <li><b>Step 3: </b>You will receive a personal confirmation message with further details about the meetings.</li>
+              </ul>
             </div>
             <p className="content"></p>
           </div>
