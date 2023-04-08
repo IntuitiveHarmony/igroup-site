@@ -117,6 +117,7 @@ body {
 }
 .calendarCheck > li:before {
   color: rgb(0, 67, 112);
+  font-size: .7em;
   text-shadow:
     /* 4px 4px 0px #6114A4, */
     3px 3px 0px rgba(35, 136, 203, .5);
@@ -156,7 +157,7 @@ body {
 .blueBoxShadow {
   box-shadow:
     /* 4px 4px 0px #6114A4, */
-    17px 17px 0px rgba(35, 136, 203, .5);
+    17px 17px 0px rgba(35, 136, 203, 0.5);
     /* 12px 12px 0px #00FFFFFF; */
 }
 .chalkBoard {
@@ -164,7 +165,7 @@ body {
   margin-left: 1em;
   margin-right: 1em;
   border: .4em solid rgb(4, 87, 142);
-  background-color: rgb(174, 174, 174);
+  background-color: rgb(182, 182, 182);
 }
 .treeImg {
   margin: 0 auto;
