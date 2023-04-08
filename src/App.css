@@ -109,12 +109,13 @@ body {
   margin:0 10px 0 -26px;
   color: #aa1717;
 }
-.handCheck li:before {
+.handCheck > li:before {
   font-family: "FontAwesome";
   content: "\f0a4";
   margin: 0 10px 0 -20px;
   color: rgb(0, 67, 112);
 }
+
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
   top: 5em;
@@ -166,8 +167,9 @@ body {
   padding-bottom: .5em;
 }
 .subSteps > li {
-  list-style: none;
-  padding-left: 1em;
+  /* list-style: none; */
+  
+  /* padding-left: 1em; */
   padding-right: 2em;
   padding-bottom: .5em;
 }
