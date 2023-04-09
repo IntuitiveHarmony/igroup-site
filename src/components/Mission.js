@@ -8,7 +8,11 @@ const Mission = (props) => {
     return (
         <>
             <div className="missionContainer" id="mission">
-                <img id="groupPhoto" src={photo} />
+                <div className='photoContainer'>
+
+                    <img  className='introPhoto' src='https://images.unsplash.com/photo-1548638643-b16e0ceab1cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80' />
+                </div>
+                {/* <img id="groupPhoto" src={photo} /> */}
                 <div className="missionContentContainer">
                     <div className="leftColumn">
                         <div className="welcome">
@@ -20,7 +24,7 @@ const Mission = (props) => {
                             <h3>Background</h3>
                             <p className="content">Men of Mission and Service hosts regular “Men's Open Circles” for men from the larger community/public to experience the merit of “Men's Work.” These meetings are run by two long-standing, local men's groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
-                        <img className="treeImg blueBoxShadow" src={tree} />
+                        {/* <img className="treeImg blueBoxShadow" src={tree} /> */}
                         {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">
                             <h3>Our Mission</h3>
