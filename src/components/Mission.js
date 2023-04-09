@@ -24,6 +24,11 @@ const Mission = (props) => {
                             <h3>Background</h3>
                             <p className="content">Men of Mission and Service hosts regular “Men's Open Circles” for men from the larger community/public to experience the merit of “Men's Work.” These meetings are run by two long-standing, local men's groups who jointly share the responsibility and facilitation of hosting the Open Circles about once every five weeks.</p>
                         </div>
+                        <div className="missionStatement">
+                            <h3>Mission</h3>
+                            <p className="content">Open Circles are a safe place for new and seasoned men to generously share the merits of Men's Work. We do this through regular gatherings, outreach to existing men's groups & organizations, personal invitation, and word of mouth. Our work is generative and has a legacy.</p>
+                        </div>
+                        
                         <img className="treeImg blueBoxShadow" src={tree} />
                         {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">

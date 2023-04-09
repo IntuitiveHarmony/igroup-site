@@ -145,7 +145,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 3em;
+  padding-bottom: 7em;
   padding-left: 1em;
 }
 .calendar {
@@ -209,7 +209,10 @@ body {
   padding-right: 2em;
   padding-bottom: .5em;
 }
+.missionStatement {
+  margin-bottom: 2em;
 
+}
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
@@ -236,6 +239,7 @@ body {
     margin-top: -3em;
   }
   .missionContentContainer {
+    padding-bottom: 4em;
     display: flex;
    }
   .leftColumn {
@@ -251,12 +255,18 @@ body {
     left: -4em;
   }
   .calendarContainer {
+    margin-top: -4em;
     flex-direction: row;
     align-items: flex-start;
   }
   .circleContentContainer {
-    max-width: 45%;
+    max-width: 50%;
   }
-  
+  .background {
+    margin-top: -1em;
+  }
+  .missionStatement {
+    margin-top: -3em;
+  }
 }
  
