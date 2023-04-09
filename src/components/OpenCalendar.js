@@ -43,7 +43,7 @@ const OpenCalendar = () => {
               <li>September 4, 2023</li>
               <li>October 9, 2023</li>
             </ul>
-          {/* <img className="riverImg blueBoxShadow" src={riverRocks}/> */}
+          <img className="riverImg blueBoxShadow" src={riverRocks}/>
           </div>
           {/* <iframe className="calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=YWQ3OGUyMzFhYzM2YTQ4NGRhODMyODFhZWIyMDdjZDM1YzkxMmE2NWYzZTIxNmVmY2ExNGUzZmJiODI3NjIwYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000" width="800" height="600" frameborder="0" scrolling="no" ></iframe> */}
           
