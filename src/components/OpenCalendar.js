@@ -29,7 +29,6 @@ const OpenCalendar = () => {
                 <li><b>Step 3: </b>You will receive a personal confirmation message with further details about the meetings.</li>
               </ul>
             </div>
-            <p className="content"></p>
           </div>
 
           <div>
