@@ -2,7 +2,7 @@
 import riverRocks from "../images/riverRocks.png"
 
 
-const OpenCalendar = () => {
+const OpenCalendar = ({ mobile }) => {
 
      
       return (
@@ -24,7 +24,7 @@ const OpenCalendar = () => {
                 <li><b>Step 2: </b>Let us know you are coming</li>
                   <ul className="subSteps">
                     <li>Download Discord for desktop or mobile: <a className="link" href='https://discord.com/download' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a> <br/> Join the Men of Mission and Service (MMS) Discord Server: <a className="link" href='https://discord.gg/9XbrvPdG' target="_blank" rel="noopener noreferrer"><i class="fa fa-up-right-from-square"></i></a></li>
-                    <li>Old school? Send us an email: <a className="link" href="mailto:menofmissionandservice@gmail.com">menofmissionandservice@gmail.com</a></li>
+                    <li>Old school? Send us an email: <a className="link" href="mailto:menofmissionandservice@gmail.com">{mobile ?  <i class="fa-regular fa-paper-plane"></i> : "menofmissionandservice@gmail.com" }</a></li>
                   </ul>
                 <li><b>Step 3: </b>You will receive a personal confirmation message with further details about the meetings.</li>
               </ul>

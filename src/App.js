@@ -22,7 +22,7 @@ const App = () => {
         />
       <Mission id="mission" className="missionSection" mobile={mobile} />
       {/* <CalendarAPI /> */}
-      <OpenCalendar id="calendar" className="calendarSection" />
+      <OpenCalendar id="calendar" className="calendarSection" mobile={mobile}/>
       <Footer />
     </>
   )
