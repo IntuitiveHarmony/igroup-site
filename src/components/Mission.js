@@ -29,7 +29,9 @@ const Mission = (props) => {
                             <p className="content">Open Circles are a safe place for new and seasoned men to generously share the merits of Men's Work. We do this through regular gatherings, outreach to existing men's groups & organizations, personal invitation, and word of mouth. Our work is generative and has a legacy.</p>
                         </div>
                         
-                        <img className="treeImg blueBoxShadow" src={tree} />
+                        <div className='flexWrapper'>
+                            <img className="treeImg blueBoxShadow" src={tree} />
+                        </div>
                         {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">
                             <h3>Our Mission</h3>

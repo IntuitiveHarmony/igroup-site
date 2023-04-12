@@ -179,14 +179,18 @@ h3 {
   border: .4em solid rgb(4, 87, 142);
   background-color: rgb(182, 182, 182);
 }
+.flexWrapper {
+  display: flex;
+}
 .treeImg {
-  width: 75vh;
-  margin-left: 3em;
-  max-height: 400px;
-  max-width: 500px;
+  width: 30vh;
+  /* margin-left: 3em; */
+  /* max-height: 400px; */
+  max-width: 80%;
 }
 .riverImg {
-  margin-left: 2em;
+  width: 30vh;
+  /* margin-left: -2em; */
   max-width: 80%;
 }
 .background {
