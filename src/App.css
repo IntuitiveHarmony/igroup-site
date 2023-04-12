@@ -1,4 +1,7 @@
 /* style for mobile */
+* {
+  box-sizing: border-box;
+}
 body {
   background: rgb(227, 223, 218);
   color: rgb(50, 50, 50);
@@ -24,7 +27,7 @@ h3 {
   grid-template-columns: 85% auto;
   grid-template-rows: auto;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   padding: .5em;
   background: rgb(68, 69, 69);
   color: rgb(75, 165, 224);
@@ -43,7 +46,7 @@ h3 {
   position: relative;
   grid-column: 2;
   top: .1em;
-  right: 1.2em;
+  /* right: 1.2em; */
 }
 .menuContainer {
   display: flex;
@@ -141,7 +144,7 @@ h3 {
   background-color: rgb(227, 223, 218);
   top: 5em;
   position: relative;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding-bottom: 7em;
@@ -181,6 +184,7 @@ h3 {
 }
 .flexWrapper {
   display: flex;
+  justify-content: center;
 }
 .treeImg {
   width: 30vh;
@@ -215,8 +219,8 @@ h3 {
 }
 .missionStatement {
   margin-bottom: 2em;
-
 }
+
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
