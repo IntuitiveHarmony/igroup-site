@@ -1,91 +1,93 @@
 /* style for mobile */
+* {
+  box-sizing: border-box;
+}
 body {
   background: rgb(227, 223, 218);
   color: rgb(50, 50, 50);
- }
- a {
+}
+.link {
   text-decoration: none;
   cursor: pointer;
   color: rgb(0, 110, 200);
   font-weight: bold;
- }
- h1 {
+}
+h1 {
   margin-left: .5em;
- }
- h3 {
+}
+h3 {
   margin-top: 2em;
   margin-bottom: .1em;
   margin-left: 1em;
- }
- /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
- .navContainer {
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navContainer {
   z-index: 1;
   display: grid;
   grid-template-columns: 85% auto;
   grid-template-rows: auto;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   padding: .5em;
   background: rgb(68, 69, 69);
-  color: rgb(0, 181, 245);
+  color: rgb(75, 165, 224);
   font-size: 1.5em;
- }
- .header {
+}
+.header {
   grid-column: 1;
- }
- .iconContainer {
+}
+.iconContainer {
   max-width: 100%;
   grid-column: 2;
   display: flex;
   justify-content: right;
- }
- #menuIcon {
+}
+#menuIcon {
   position: relative;
   grid-column: 2;
   top: .1em;
-  right: 1.2em;
- }
- .menuContainer {
+  /* right: 1.2em; */
+}
+.menuContainer {
   display: flex;
   justify-content: right;
   grid-column: 1 / span 2;
   top: -2.5em;
- }
- .menuList{
+}
+.menuList{
   list-style: none;
- }
- .navLink {
-  color: rgb(0, 181, 245);
+}
+.navLink {
+  /* color: rgb(0, 181, 245); */
   padding-right: 1.5em;
- }
- .contentLink {
+}
+.contentLink {
   color: rgb(0, 110, 200);
- }
- .menuList > li {
+}
+.menuList > li {
   padding: .5em;
- }
- /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
- .missionContainer {
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.missionContainer {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   top: 2em;
- }
- .missionContentContainer {
+}
+.missionContentContainer {
   background-color: rgba(227, 223, 218, 1);
-  /* margin-top: -25%; */
- }
- #groupPhoto {
+/* margin-top: -25%; */
+}
+/* #groupPhoto {
   background: #6114A4;
   background: -moz-linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
   background: -webkit-linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
   background: linear-gradient(45deg, #6114A4 0%, #2388CB 59%, #00FFFFFF 100%);
   max-width: 100%;
   margin-bottom: -1em;
- 
- }
- .content {
+} */
+.content {
   padding-right: 1.5em;
   padding-left: 1.5em;
   margin-bottom: 0em;
@@ -142,18 +144,18 @@ body {
   background-color: rgb(227, 223, 218);
   top: 5em;
   position: relative;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding-bottom: 7em;
   padding-left: 1em;
 }
-.calendar {
+/* .calendar {
   max-width: 90vmin;
   height: 90vmin;
   margin-top: 2em;
   margin-bottom: 3em;
-}
+} */
 .green {
   color: green;
 }
@@ -180,13 +182,19 @@ body {
   border: .4em solid rgb(4, 87, 142);
   background-color: rgb(182, 182, 182);
 }
+.flexWrapper {
+  display: flex;
+  justify-content: center;
+}
 .treeImg {
-  margin-left: 3em;
-  max-height: 400px;
-  max-width: 500px;
+  width: 30vh;
+  /* margin-left: 3em; */
+  /* max-height: 400px; */
+  max-width: 80%;
 }
 .riverImg {
-  margin-left: 2em;
+  width: 30vh;
+  /* margin-left: -2em; */
   max-width: 80%;
 }
 .background {
@@ -211,8 +219,8 @@ body {
 }
 .missionStatement {
   margin-bottom: 2em;
-
 }
+
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
@@ -234,10 +242,10 @@ body {
   .treeImg {
     margin: 0 auto;
   }
-  #groupPhoto {
+  /* #groupPhoto {
     width: 100%;
     margin-top: -3em;
-  }
+  } */
   .missionContentContainer {
     padding-bottom: 4em;
     display: flex;

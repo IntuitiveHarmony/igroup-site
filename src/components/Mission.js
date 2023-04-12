@@ -29,7 +29,9 @@ const Mission = (props) => {
                             <p className="content">Open Circles are a safe place for new and seasoned men to generously share the merits of Men's Work. We do this through regular gatherings, outreach to existing men's groups & organizations, personal invitation, and word of mouth. Our work is generative and has a legacy.</p>
                         </div>
                         
-                        <img className="treeImg blueBoxShadow" src={tree} />
+                        <div className='flexWrapper'>
+                            <img className="treeImg blueBoxShadow" src={tree} />
+                        </div>
                         {/* <img className="treeImg" src={treePhoto}/> */}
                         {/* <div className="ourMission">
                             <h3>Our Mission</h3>
@@ -46,15 +48,15 @@ const Mission = (props) => {
                                 <li>We work honestly with the “shadow” dimensions of our character as described by Carl Jung, Robert Bly, and other men's-work thinkers.</li>
                                 <li>We recognize and bring forth our particular “Gold”</li>
                                 <li>This work is done through voluntary processes, requested feedback, deep self-reflection, and ethos of accountability, honesty, and compassion.</li>
-                                <li>We do have required <a href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements <i class="fa fa-up-right-from-square"></i></a>, to ensure a mutually supportive space</li>
+                                <li>We do have required <a className="link" href='https://forms.gle/QGi48a77893jUoLi7' target="_blank" rel="noopener noreferrer">Rules and Guidelines/ Agreements <i class="fa fa-up-right-from-square"></i></a>, to ensure a mutually supportive space</li>
                                 <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                             </ul>
                             <p className="content">Men of Mission and Service {props.mobile ? // mobile vs desktop links have diffrent offset
-                            <Link className="contentLink" to="calendar" smooth={true} 
+                            <Link className="link" to="calendar" smooth={true} offset={-40}
                             // onClick={() => handleHideNav()}
                             >Open Circles</Link> 
                             : 
-                            <Link className="contentLink" to="calendar" smooth={true} offset={-50} >Open Circles</Link> } are hosted about every five weeks.</p>
+                            <Link className="link" to="calendar" smooth={true} offset={-50} >Open Circles</Link> } are hosted about every five weeks.</p>
                         </div>
 
                         <div className="weDont">
