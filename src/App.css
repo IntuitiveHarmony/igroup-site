@@ -43,6 +43,7 @@ h3 {
   justify-content: right;
 }
 #menuIcon {
+  cursor: pointer;
   position: relative;
   grid-column: 2;
   top: .1em;
@@ -59,6 +60,7 @@ h3 {
 }
 .navLink {
   /* color: rgb(0, 181, 245); */
+  cursor: pointer;
   padding-right: 1.5em;
 }
 .contentLink {

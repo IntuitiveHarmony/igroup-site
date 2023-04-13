@@ -89,7 +89,7 @@ const Nav = (props) => {
                                             className="navLink"
                                             to="calendar" 
                                             smooth={true} 
-                                            offset={-35}
+                                            offset={-50}
                                             onClick={() => handleMenu()}
                                             >Open Circles
                                         </Link>
