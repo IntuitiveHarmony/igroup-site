@@ -225,6 +225,10 @@ h3 {
 .missionStatement {
   margin-bottom: 2em;
 }
+.flipWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
@@ -274,6 +278,8 @@ h3 {
     align-items: flex-start;
   }
   .circleContentContainer {
+    display: flex;
+    flex-direction: column;
     max-width: 50%;
   }
   .background {
@@ -281,6 +287,10 @@ h3 {
   }
   .missionStatement {
     margin-top: -3em;
+  }
+  .datesContainer {
+    display: flex;
+    flex-direction: column;
   }
 }
  

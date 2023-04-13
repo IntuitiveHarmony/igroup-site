@@ -7,6 +7,7 @@ const OpenCalendar = ({ mobile }) => {
      
       return (
         <div className="calendarContainer" id="calendar">
+
           <div className="circleContentContainer">
             <h1 className="circleHeader blueShadow">Attend an Open Circle</h1>
             <p className="content">Men of Mission and Service hosts "Men's Open Circle" about once every five weeks, which is available to any man interested in personal growth and development. <b>Future known dates are posted below.</b></p>
@@ -17,8 +18,7 @@ const OpenCalendar = ({ mobile }) => {
 
             <p className="content"><b>If you plan to attend, send us notice at least 24 hours in advance of an Open Circle date</b> via email, or our mobile chat app, Discord (which is our preferred mode of communication).</p>
 
-            <div className="flipWrapper"> 
-            </div>
+            {/* <div className="flipWrapper">  */}
               <div className="chalkBoard" id="signUp">
                 <h2 className="content">Sign Up for an Open Circle!</h2>
                 <ul className="steps handCheck">
@@ -31,7 +31,7 @@ const OpenCalendar = ({ mobile }) => {
                   <li><b>Step 3: </b>You will receive a personal confirmation message with further details about the meetings.</li>
                 </ul>
               </div>
-            </div>
+          </div>          
 
             <div className="datesContainer">
               <h2 className="circleHeader blueShadow">Upcoming Open Meetings:</h2>
@@ -46,7 +46,10 @@ const OpenCalendar = ({ mobile }) => {
               <div className="flexWrapper">
                 <img className="riverImg blueBoxShadow" src={riverRocks}/>
               </div>
-          </div>          
+            </div>
+            
+            {/* </div> */}
+
         </div>
     );
 }
