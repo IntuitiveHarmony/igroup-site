@@ -1,5 +1,6 @@
 
 import riverRocks from "../images/riverRocks.png"
+import DatesList from "./DatesList";
 
 
 const OpenCalendar = ({ mobile }) => {
@@ -17,8 +18,8 @@ const OpenCalendar = ({ mobile }) => {
             <p className="content">We reserve the complete and unilateral right to limit the size of the meetings, if or when necessary, and to invite or disinvite any attendee or prospect.</p>
 
             <p className="content"><b>If you plan to attend, send us notice at least 24 hours in advance of an Open Circle date</b> via email, or our mobile chat app, Discord (which is our preferred mode of communication).</p>
-
-            {/* <div className="flipWrapper">  */}
+            
+            {mobile && <DatesList /> } {/* Dates come first in mobile version */}
               <div className="chalkBoard" id="signUp">
                 <h2 className="content">Sign Up for an Open Circle!</h2>
                 <ul className="steps handCheck">
@@ -34,21 +35,12 @@ const OpenCalendar = ({ mobile }) => {
           </div>          
 
             <div className="datesContainer">
-              <h2 className="circleHeader blueShadow">Upcoming Open Meetings:</h2>
-              <ul className="dates calendarCheck">
-                <li>April 24, 2023</li>
-                <li>May 29, 2023</li>
-                <li>July 3, 2023</li>
-                <li>August 7, 2023</li>
-                <li>September 4, 2023</li>
-                <li>October 9, 2023</li>
-              </ul>
+              {!mobile && <DatesList /> } {/* Dates in the middle in desktop version */}
               <div className="flexWrapper">
                 <img className="riverImg blueBoxShadow" src={riverRocks}/>
               </div>
             </div>
             
-            {/* </div> */}
 
         </div>
     );
