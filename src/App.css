@@ -31,7 +31,7 @@ h3 {
   padding: .5em;
   background: rgb(68, 69, 69);
   color: rgb(75, 165, 224);
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 .header {
   grid-column: 1;
@@ -133,9 +133,9 @@ h3 {
   width: 100%;
   height: 150px;
 }
-#signUp {
+/* #signUp {
   margin-right: 2em;
-}
+} */
 .introPhoto {
   width: 100%;
 }
@@ -148,7 +148,10 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding-bottom: 7em;
+}
+.datesContainer {
   padding-left: 1em;
+
 }
 /* .calendar {
   max-width: 90vmin;
