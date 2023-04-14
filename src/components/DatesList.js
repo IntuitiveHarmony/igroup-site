@@ -3,7 +3,7 @@
 function DatesList() {
   return (
     <>
-        <h2 className="datesHeader blueShadow">Upcoming Open Meetings:</h2>
+        <h2 className="datesHeader blueShadow">Upcoming Open Circles:</h2>
         <ul className="dates calendarCheck">
             <li>April 24, 2023</li>
             <li>May 29, 2023</li>
