@@ -28,7 +28,7 @@ h3 {
   margin-left: 1em;
 }
 #root {
-  width: 100vw;
+  /* width: 100vw; */
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navContainer {
@@ -246,12 +246,12 @@ h3 {
   margin-left: 1em;
 }
 .footer {
-  font-size: .7em;
+  font-size: .8em;
   padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding-right: 2em;
+  padding-right: 1em;
   /* height: 2em; */
   color: azure;
   background-color: rgb(75, 165, 224);
