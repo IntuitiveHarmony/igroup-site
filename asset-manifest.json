@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d59cf203.css",
+    "main.css": "/static/css/main.1bea52e1.css",
     "main.js": "/static/js/main.a364d122.js",
     "static/js/787.1f1cedf6.chunk.js": "/static/js/787.1f1cedf6.chunk.js",
     "static/media/riverRocks.png": "/static/media/riverRocks.e6a1b981fbc62f0fa869.png",
     "static/media/groupPhoto.png": "/static/media/groupPhoto.c426f85d27db7095b4a7.png",
     "static/media/tree.png": "/static/media/tree.77e6b45ee02e9d6a9b38.png",
     "index.html": "/index.html",
-    "main.d59cf203.css.map": "/static/css/main.d59cf203.css.map",
+    "main.1bea52e1.css.map": "/static/css/main.1bea52e1.css.map",
     "main.a364d122.js.map": "/static/js/main.a364d122.js.map",
     "787.1f1cedf6.chunk.js.map": "/static/js/787.1f1cedf6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d59cf203.css",
+    "static/css/main.1bea52e1.css",
     "static/js/main.a364d122.js"
   ]
 }
