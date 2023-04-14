@@ -12,6 +12,13 @@ body {
   color: rgb(0, 110, 200);
   font-weight: bold;
 }
+.gitLink {
+  color: rgb(206, 0, 206);
+  /* color: rgb(182, 58, 245); */
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
 h1 {
   margin-left: .5em;
 }
@@ -19,6 +26,9 @@ h3 {
   margin-top: 2em;
   margin-bottom: .1em;
   margin-left: 1em;
+}
+#root {
+  width: 100vw;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .navContainer {
@@ -143,13 +153,14 @@ h3 {
 }
  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .calendarContainer {
-  background-color: rgb(227, 223, 218);
+  /* background-color: rgb(227, 223, 218); */
   top: 5em;
   position: relative;
   /* display: flex; */
   flex-direction: column;
   align-items: center;
   padding-bottom: 7em;
+  margin-bottom: 7em;
 }
 .datesContainer {
   padding-left: 1em;
@@ -233,7 +244,20 @@ h3 {
 .datesHeader {
   margin-left: 1em;
 }
-
+.footer {
+  font-size: .6em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-right: 2em;
+  /* height: 2em; */
+  color: azure;
+  background-color: rgb(75, 165, 224);
+}
+.footerContent {
+  margin: 0;
+}
 /* styles for desktop when the browser is 600px or above */
 @media (min-width: 900px) {
   .navContainer {
