@@ -34,12 +34,12 @@ const OpenCalendar = ({ mobile }) => {
               </div>
           </div>          
 
-            <div className="datesContainer">
-              {!mobile && <DatesList /> } {/* Dates in the middle in desktop version */}
-              <div className="flexWrapper">
-                <img className="riverImg blueBoxShadow" src={riverRocks}/>
-              </div>
+          <div className="datesContainer">
+            {!mobile && <DatesList /> } {/* Dates in the middle in desktop version */}
+            <div className="flexWrapper">
+              <img className="riverImg blueBoxShadow" src={riverRocks}/>
             </div>
+          </div>
             
 
         </div>

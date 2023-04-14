@@ -52,7 +52,7 @@ const Mission = (props) => {
                                 <li>There is no charge for these services. The price of admission is your genuine willingness to be open and honest.</li>
                             </ul>
                             <p className="content">Men of Mission and Service {props.mobile ? // mobile vs desktop links have diffrent offset
-                            <Link className="link" to="calendar" smooth={true} offset={-50}
+                            <Link className="link" to="calendar" smooth={true} offset={-75}
                             // onClick={() => handleHideNav()}
                             >Open Circles</Link> 
                             : 
