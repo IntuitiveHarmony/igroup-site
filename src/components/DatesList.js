@@ -3,7 +3,6 @@ function DatesList() {
     <>
       <h2 className="datesHeader blueShadow">Upcoming Open Circles:</h2>
       <ul className="dates calendarCheck">
-        <li>April 24, 2023</li>
         <li>June 5, 2023</li>
         <li>July 10, 2023</li>
         <li>August 7, 2023</li>
