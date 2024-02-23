@@ -32,7 +32,7 @@ const Mission = (props) => {
                 for men from the larger community/public to experience the merit
                 of “Men's Work.” These meetings are run by two long-standing,
                 local men's groups who jointly share the responsibility and
-                facilitation of hosting the Open Circles about once every five
+                facilitation of hosting the Open Circles about once every seven
                 weeks.
               </p>
               <p className="content">
@@ -129,7 +129,7 @@ const Mission = (props) => {
                     Open Circles
                   </Link>
                 )}{" "}
-                are hosted about every five weeks.
+                are hosted about every seven weeks.
               </p>
             </div>
 
