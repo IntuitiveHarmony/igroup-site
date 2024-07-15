@@ -76,14 +76,14 @@ const Mission = (props) => {
                 <li>
                   Meetings are self-directed, and based on a set structure that
                   guides men through specific masculine archetypes step by step
-                  (Lover, Warrior, Magician, and King)
+                  (Lover, Warrior, Magician, and King).
                 </li>
                 <li>
                   We work honestly with the “shadow” dimensions of our character
                   as described by Carl Jung, Robert Bly, and other men's-work
                   thinkers.
                 </li>
-                <li>We recognize and bring forth our particular “Gold”</li>
+                <li>We recognize and bring forth our particular “Gold”.</li>
                 <li>
                   This work is done through voluntary processes, requested
                   feedback, deep self-reflection, and ethos of accountability,
@@ -100,7 +100,7 @@ const Mission = (props) => {
                     Rules and Guidelines/ Agreements{" "}
                     <i class="fa fa-up-right-from-square"></i>
                   </a>
-                  , to ensure a mutually supportive space
+                  , to ensure a mutually supportive space.
                 </li>
                 <li>
                   There is no charge for these services. The price of admission
@@ -145,19 +145,19 @@ const Mission = (props) => {
               <ul className="doList redCheck">
                 <li>
                   We are not and do not claim to act as trained therapists or
-                  professional healers
+                  professional healers.
                 </li>
                 <li>
                   As such, we are unable to support men with significant
                   psychological disorders, or those with untreated or ongoing
-                  substance abuse issues
+                  substance abuse issues.
                 </li>
                 <li>
-                  We don't offer advice or feedback, unless explicitly requested
+                  We don't offer advice or feedback, unless explicitly requested.
                 </li>
                 <li>
                   This is a support environment, and not a talk therapy group or
-                  a recovery group
+                  a recovery group.
                 </li>
               </ul>
             </div>
