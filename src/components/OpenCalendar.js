@@ -45,59 +45,32 @@ const OpenCalendar = ({ mobile }) => {
           <h2 className="content">Sign Up for an Open Circle!</h2>
           <ul className="steps handCheck">
             <li>
-              <b>Step 1: </b>Read and submit our{" "}
+              Review our Rules and Agreements and let us know you are coming by filling out this {" "}
               <a
                 className="link"
                 href="https://forms.gle/QGi48a77893jUoLi7"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Rules and Guidelines/ Agreements.{" "}
+                Google Form{" "}
                 <i class="fa fa-up-right-from-square"></i>
-              </a>
-            </li>
-            <li>
-              <b>Step 2: </b>Let us know you are coming
+              </a>.
             </li>
             <ul className="subSteps">
-              <li>
-                Download Discord for desktop or mobile:{" "}
-                <a
-                  className="link"
-                  href="https://discord.com/download"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa fa-up-right-from-square"></i>
-                </a>{" "}
-                <br /> Join the Men of Mission and Service (MMS) Discord Server:{" "}
-                <a
-                  className="link"
-                  href="https://discord.gg/n98xVevJSK"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fa fa-up-right-from-square"></i>
-                </a>
-              </li>
               <li>
                 Old school? Send us an email:{" "}
                 <a
                   className="link"
-                  href="mailto:menofmissionandservice@gmail.com"
+                  href="mailto:menofmissionandservice@googlegroups.com"
                 >
                   {mobile ? (
                     <i class="fa-regular fa-paper-plane"></i>
                   ) : (
-                    "menofmissionandservice@gmail.com"
-                  )}
+                    "menofmissionandservice@googlegroups.com"
+                  )}.
                 </a>
               </li>
             </ul>
-            <li>
-              <b>Step 3: </b>You will receive a personal confirmation message
-              with further details about the meetings.
-            </li>
           </ul>
         </div>
       </div>
