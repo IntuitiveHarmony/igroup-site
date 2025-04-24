@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.364e975f.css",
-    "main.js": "/static/js/main.cdf89e5d.js",
-    "static/js/787.1f1cedf6.chunk.js": "/static/js/787.1f1cedf6.chunk.js",
-    "static/media/riverRocks.png": "/static/media/riverRocks.e6a1b981fbc62f0fa869.png",
-    "static/media/groupPhoto.png": "/static/media/groupPhoto.c426f85d27db7095b4a7.png",
-    "static/media/tree.png": "/static/media/tree.77e6b45ee02e9d6a9b38.png",
-    "index.html": "/index.html",
-    "main.364e975f.css.map": "/static/css/main.364e975f.css.map",
-    "main.cdf89e5d.js.map": "/static/js/main.cdf89e5d.js.map",
-    "787.1f1cedf6.chunk.js.map": "/static/js/787.1f1cedf6.chunk.js.map"
+    "main.css": "/igroup-site/static/css/main.364e975f.css",
+    "main.js": "/igroup-site/static/js/main.cdb1853c.js",
+    "static/js/787.1f1cedf6.chunk.js": "/igroup-site/static/js/787.1f1cedf6.chunk.js",
+    "static/media/riverRocks.png": "/igroup-site/static/media/riverRocks.e6a1b981fbc62f0fa869.png",
+    "static/media/groupPhoto.png": "/igroup-site/static/media/groupPhoto.c426f85d27db7095b4a7.png",
+    "static/media/tree.png": "/igroup-site/static/media/tree.77e6b45ee02e9d6a9b38.png",
+    "index.html": "/igroup-site/index.html",
+    "main.364e975f.css.map": "/igroup-site/static/css/main.364e975f.css.map",
+    "main.cdb1853c.js.map": "/igroup-site/static/js/main.cdb1853c.js.map",
+    "787.1f1cedf6.chunk.js.map": "/igroup-site/static/js/787.1f1cedf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.364e975f.css",
-    "static/js/main.cdf89e5d.js"
+    "static/js/main.cdb1853c.js"
   ]
 }
